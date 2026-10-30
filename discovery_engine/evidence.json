@@ -1,0 +1,14 @@
+{
+  "funnel": [
+    {"source": "Play Store and App Store", "stage": "raw reviews pulled", "items": 6500},
+    {"source": "Play Store and App Store", "stage": "after minimum length", "items": 3647},
+    {"source": "Play Store and App Store", "stage": "after dedupe", "items": 3491},
+    {"source": "Play Store and App Store", "stage": "after first keyword filter", "items": 889},
+    {"source": "Play Store and App Store", "stage": "after tightened SIP keyword filter", "items": 363},
+    {"source": "Reddit (public threads, collected via search and fetch)", "stage": "threads read, posts and comments kept", "items": 33}
+  ],
+  "notes": [
+    "Extraction model: see model_used column in the data. Prompt version v2 (sip_specific field and rules 9 to 11).",
+    "Reddit sample is small and not random. YouTube comments: add counts here once collected."
+  ]
+}

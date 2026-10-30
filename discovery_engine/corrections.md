@@ -1,0 +1,4 @@
+1. **"Paused investments due to market fluctuations"** was tagged `uncertainty`. The review never mentions confusion. Corrected to `other` and added prompt rule 10.
+2. **"IPO autopay always failed, then I uninstall"** was tagged as a stopped SIP with a mandate failure. It was about IPO autopay and leaving the app. Added prompt rule 11 and the `sip_specific` field.
+3. **"Started SIP in it"** was tagged `month_1_3` with no timing in the text. Corrected to `unclear` and added prompt rule 9.
+4. **"Uncertainty" was over-assigned.** In a random sample of 15 items tagged uncertainty, about 13 were pre-start questions or feature requests from people without a SIP, not doubts about continuing one. Fix: the Findings tab now defaults to people who have already started a SIP (journey stage or outcome present). Next iteration: add a has_started field and rerun.
