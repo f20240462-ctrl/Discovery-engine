@@ -17,7 +17,7 @@ except Exception as e:
     st.error(f"Could not load extract_insights.py: {e}")
     st.stop()
 
-DATA = "data"
+DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 MAX_TRIES = 8
 DROP = ["paused", "reduced", "stopped"]
 BRANCH = {
